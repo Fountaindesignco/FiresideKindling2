@@ -22,11 +22,11 @@ export const metadata = {
               <div>
                 <h6><span class="mil marker">Headings</span></h6>
                 <h1 class="mil-up">Hello World!</h1>
-                <h2 class="mil-up">Hello World</h2>
-                <h3 class="mil-up">Hello World</h3>
-                <h4 class="mil-up">Hello World</h4>
-                <h5 class="mil-up">Hello World</h5>
-                <h6 class="mil-up">Hello World</h6>
+                <h2 class="mil-up">Hello World!</h2>
+                <h3 class="mil-up">Hello World!</h3>
+                <h4 class="mil-up">Hello World!</h4>
+                <h5 class="mil-up">Hello World!</h5>
+                <h6 class="mil-up">Hello World!</h6>
               </div>
               <div>
                 <h6><span class="mil marker">Sub Headings</span></h6>
