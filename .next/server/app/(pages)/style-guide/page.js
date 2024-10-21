@@ -47,7 +47,7 @@ module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
 
-/***/ 95232:
+/***/ 61090:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/app-render/get-segment-param.js");
@@ -346,21 +346,27 @@ const Styleguide = ()=>{
                                         })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                        children: "Hello World"
+                                        class: "mil-up",
+                                        children: "Hello World!"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                        class: "mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                        class: "mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                        class: "mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
+                                        class: "mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        class: "mil-up",
                                         children: "Hello World"
                                     })
                                 ]
@@ -374,16 +380,16 @@ const Styleguide = ()=>{
                                         })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        class: "subtitle_small",
-                                        children: "Subtitle Small"
+                                        class: "subtitle_large mil-up",
+                                        children: "Subtitle Large"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        class: "subtitle_medium",
+                                        class: "subtitle_medium mil-up",
                                         children: "Subtitle Medium"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        class: "subtitle_large",
-                                        children: "Subtitle Large"
+                                        class: "subtitle_small mil-up",
+                                        children: "Subtitle Small"
                                     })
                                 ]
                             }),
@@ -396,19 +402,19 @@ const Styleguide = ()=>{
                                         })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "body_copy_xs",
+                                        className: "body_copy_xs mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "body_copy_medium",
+                                        className: "body_copy_medium mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "body_copy_large",
+                                        className: "body_copy_large mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "body_copy_xl",
+                                        className: "body_copy_xl mil-up",
                                         children: "Hello World"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {

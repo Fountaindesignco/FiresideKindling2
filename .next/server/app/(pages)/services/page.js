@@ -47,7 +47,7 @@ module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
 
-/***/ 95232:
+/***/ 61090:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/app-render/get-segment-param.js");

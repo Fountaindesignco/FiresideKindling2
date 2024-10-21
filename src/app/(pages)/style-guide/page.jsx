@@ -21,25 +21,25 @@ export const metadata = {
               <h2><span class="mil marker">Typography</span></h2>
               <div>
                 <h6><span class="mil marker">Headings</span></h6>
-                <h1>Hello World</h1>
-                <h2>Hello World</h2>
-                <h3>Hello World</h3>
-                <h4>Hello World</h4>
-                <h5>Hello World</h5>
-                <h6>Hello World</h6>
+                <h1 class="mil-up">Hello World!</h1>
+                <h2 class="mil-up">Hello World</h2>
+                <h3 class="mil-up">Hello World</h3>
+                <h4 class="mil-up">Hello World</h4>
+                <h5 class="mil-up">Hello World</h5>
+                <h6 class="mil-up">Hello World</h6>
               </div>
               <div>
                 <h6><span class="mil marker">Sub Headings</span></h6>
-                <div class="subtitle_small">Subtitle Small</div>
-                <div class="subtitle_medium">Subtitle Medium</div>
-                <div class="subtitle_large">Subtitle Large</div>
+                <div class="subtitle_large mil-up">Subtitle Large</div>
+                <div class="subtitle_medium mil-up">Subtitle Medium</div>
+                <div class="subtitle_small mil-up">Subtitle Small</div>
               </div>
               <div>
                 <h6><span class="mil marker">Body Copy</span></h6>
-                <p className="body_copy_xs">Hello World</p>
-                <p className="body_copy_medium">Hello World</p>
-                <p className="body_copy_large">Hello World</p>
-                <p className="body_copy_xl">Hello World</p>
+                <p className="body_copy_xs mil-up">Hello World</p>
+                <p className="body_copy_medium mil-up">Hello World</p>
+                <p className="body_copy_large mil-up">Hello World</p>
+                <p className="body_copy_xl mil-up">Hello World</p>
                 <a href="#">Text Link</a>
               </div>
             </div>

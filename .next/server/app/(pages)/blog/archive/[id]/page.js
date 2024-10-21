@@ -52,7 +52,7 @@ module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
 
-/***/ 95232:
+/***/ 61090:
 /***/ ((module) => {
 
 "use strict";

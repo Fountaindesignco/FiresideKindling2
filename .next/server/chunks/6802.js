@@ -590,7 +590,7 @@ module.exports = JSON.parse('{"Xd":{"Tb":"https://formspree.io/f/your_api_key"},
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"Xd":{"aD":"Ruizarch","JG":"Architecture React Next.JS Template","ji":6},"xs":[{"link":"https://facebook.com","title":"Facebook"},{"link":"https://twitter.com","title":"Twitter"},{"link":"https://instagram.com","title":"Instagram"},{"link":"https://youtube.com","title":"Youtube"}],"q":{"b":[{"name":"Architecture","slug":"architecture"},{"name":"Interior","slug":"interior"},{"name":"Decor","slug":"decor"}]},"Bz":{"b":[{"name":"Executive","slug":"executive"},{"name":"Data centers","slug":"data-centers"},{"name":"Education","slug":"education"},{"name":"Workplace","slug":"workplace"}]}}');
+module.exports = JSON.parse('{"Xd":{"aD":"Nova 3","JG":"Fireside starter","ji":6},"xs":[{"link":"https://facebook.com","title":"Facebook"},{"link":"https://twitter.com","title":"Twitter"},{"link":"https://instagram.com","title":"Instagram"},{"link":"https://youtube.com","title":"Youtube"}],"q":{"b":[{"name":"Architecture","slug":"architecture"},{"name":"Interior","slug":"interior"},{"name":"Decor","slug":"decor"}]},"Bz":{"b":[{"name":"Executive","slug":"executive"},{"name":"Data centers","slug":"data-centers"},{"name":"Education","slug":"education"},{"name":"Workplace","slug":"workplace"}]}}');
 
 /***/ })
 

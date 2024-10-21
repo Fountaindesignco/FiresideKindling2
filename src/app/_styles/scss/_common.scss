@@ -19,12 +19,18 @@ body {
     font-size: $text;
     font-weight: 400;
     color: $dt-70;
-    line-height: 170%;
+    line-height: $line_height;
     /*overscroll-behavior: none;
     scroll-behavior: smooth;*/
 
     @media screen and (max-width: 768px) {
-        font-size: $text - 1px;
+        font-size: $text_tablet;
+        line-height: $line_height_tablet;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: $text_mobile;
+        line-height: $line_height_mobile;
     }
 }
 
@@ -82,6 +88,29 @@ h6,
 h1,
 .mil-h1 {
     font-size: $h1;
+    line-height: $heading_height;
+    padding-bottom: $xs;
+
+    @media screen and (max-width: 992px) {
+        font-size: $h1;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $h1_tablet;
+        line-height: $heading_height_tablet;
+        padding-bottom: $xxs;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: $h1_mobile;
+        line-height: $heading_height_mobile;
+    }
+}
+
+h2,
+.mil-h2 {
+    font-size: $h2;
+    line-height: $heading_height;
     padding-bottom: $xs;
 
     @media screen and (max-width: 992px) {
@@ -89,50 +118,36 @@ h1,
     }
 
     @media screen and (max-width: 768px) {
-        font-size: $h2 - 4px;
+        font-size: $h2_tablet;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
     }
 
     @media screen and (max-width: 576px) {
-        font-size: $h2 - 14px;
-    }
-}
-
-h2,
-.mil-h2 {
-    font-size: $h2;
-    padding-bottom: $xs;
-
-    @media screen and (max-width: 992px) {
-        font-size: $h2 - 12px;
-    }
-
-    @media screen and (max-width: 768px) {
-        font-size: $h2 - 14px;
-        padding-bottom: $xxs;
-    }
-
-    @media screen and (max-width: 576px) {
-        font-size: $h2 - 20px;
+        font-size: $h2_mobile;
+        line-height: $heading_height_mobile;
     }
 }
 
 h3,
 .mil-h3 {
     font-size: $h3;
+    line-height: $heading_height;
     padding-bottom: $xs;
     
     @media screen and (max-width: 992px) {
-        font-size: $h3 - 2px;
+        font-size: $h3;
     }
 
     @media screen and (max-width: 768px) {
-        font-size: $h3 - 4px;
+        font-size: $h3_tablet;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
     }
 
     @media screen and (max-width: 576px) {
-        font-size: $h3 - 6px;
+        font-size: $h3_mobile;
+        line-height: $heading_height_mobile;
     }
 }
 
@@ -140,40 +155,65 @@ h4,
 .mil-h4 {
     font-size: $h4;
     padding-bottom: $xs;
+    line-height: $heading_height;
 
     @media screen and (max-width: 992px) {
-        font-size: $h4 - 2px;
+        font-size: $h4;
     }
 
     @media screen and (max-width: 768px) {
-        font-size: $h4 - 4px;
+        font-size: $h4_tablet;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: $h4_mobile;
+        line-height: $heading_height_mobile;
     }
 }
 
 h5,
 .mil-h5 {
     font-size: $h5;
+    line-height: $heading_height;
     padding-bottom: $xs;
 
     @media screen and (max-width: 992px) {
-        font-size: $h6 + 6px;
+        font-size: $h5;
     }
 
     @media screen and (max-width: 768px) {
-        font-size: $h6 + 3px;
+        font-size: $h5_tablet;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: $h5_mobile;
+        line-height: $heading_height_mobile;
     }
 }
 
 h6,
 .mil-h6 {
     font-size: $h6;
+    line-height: $heading_height;
     padding-bottom: $xs;
 
+    @media screen and (max-width: 992px) {
+        font-size: $h6;
+    }
+
     @media screen and (max-width: 768px) {
-        font-size: $h6 - 3px;
+        font-size: $h6_tablet;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
+    }
+    
+    @media screen and (max-width: 576px) {
+        font-size: $h6_mobile;
+        line-height: $heading_height_mobile;
     }
 }
 
@@ -940,43 +980,52 @@ Wills styles
 
 .subtitle_small {
     font-size: 24px;
+    line-height: $heading_height;
     padding-bottom: $xs;
 
     @media screen and (max-width: 768px) {
         font-size: 18px;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
     }
 
     @media screen and (max-width: 576px) {
         font-size: 18px;
+        line-height: $heading_height_mobile;
     }
 }
 
 .subtitle_medium {
     font-size: 28px;
+    line-height: $heading_height;
     padding-bottom: $xs;
 
     @media screen and (max-width: 768px) {
         font-size: 20px;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
     }
 
     @media screen and (max-width: 576px) {
         font-size: 20px;
+        line-height: $heading_height_mobile;
     }
 }
 
 .subtitle_large {
     font-size: 40px;
+    line-height: $heading_height;
     padding-bottom: $xs;
 
     @media screen and (max-width: 768px) {
         font-size: 32px;
+        line-height: $heading_height_tablet;
         padding-bottom: $xxs;
     }
 
     @media screen and (max-width: 576px) {
         font-size: 24px;
+        line-height: $heading_height_mobile;
     }
 }
 

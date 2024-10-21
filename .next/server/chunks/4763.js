@@ -10188,7 +10188,7 @@ _export(exports, {
         return canSegmentBeOverridden;
     }
 });
-const _getsegmentparam = __webpack_require__(95232);
+const _getsegmentparam = __webpack_require__(61090);
 const matchSegment = (existingSegment, segment)=>{
     // Common case: segment is just a string
     if (typeof existingSegment === "string" && typeof segment === "string") {
