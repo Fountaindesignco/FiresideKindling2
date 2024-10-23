@@ -230,7 +230,7 @@ __webpack_require__.r(__webpack_exports__);
         'style-guide',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7918)), "D:\\Nova3\\src\\app\\(pages)\\style-guide\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 10434)), "D:\\Nova3\\src\\app\\(pages)\\style-guide\\page.jsx"],
           
         }]
       },
@@ -292,20 +292,46 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7918:
+/***/ 10434:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "metadata": () => (/* binding */ metadata)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(34212);
-/* harmony import */ var _data_app_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1128);
-/* harmony import */ var _components_PageBanner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(33814);
-/* harmony import */ var _components_sections_CallToAction__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(35745);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ page),
+  "metadata": () => (/* binding */ metadata)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(56786);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
+var react_shared_subset = __webpack_require__(34212);
+// EXTERNAL MODULE: ./src/data/app.json
+var app = __webpack_require__(1128);
+// EXTERNAL MODULE: ./src/app/_components/PageBanner.jsx
+var PageBanner = __webpack_require__(33814);
+// EXTERNAL MODULE: ./src/app/_components/sections/CallToAction.jsx + 1 modules
+var CallToAction = __webpack_require__(35745);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(42585);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+;// CONCATENATED MODULE: ./src/app/_components/elements/PrimaryButton.jsx
+
+
+const PrimaryButton = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+        href: "/contact",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+            children: "Primary CTA"
+        })
+    });
+};
+/* harmony default export */ const elements_PrimaryButton = (PrimaryButton);
+
+;// CONCATENATED MODULE: ./src/app/(pages)/style-guide/page.jsx
+
 
 
 
@@ -315,149 +341,362 @@ const metadata = {
     title: {
         default: "Style Guide"
     },
-    description: _data_app_json__WEBPACK_IMPORTED_MODULE_2__/* .settings.siteDescription */ .Xd.JG
+    description: app/* settings.siteDescription */.Xd.JG
 };
 const Styleguide = ()=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_PageBanner__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .ZP, {
+            /*#__PURE__*/ jsx_runtime_.jsx(PageBanner/* default */.ZP, {
                 pageTitle: "Style Guide",
                 breadTitle: "Style Guide",
                 bgImage: "/img/photo/12.jpg"
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "main_section page_content",
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "content_wrapper large",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                     class: "mil marker",
                                     children: "Typography"
                                 })
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             class: "mil marker",
                                             children: "Headings"
                                         })
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                                         class: "mil-up",
                                         children: "Hello World!"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                         class: "mil-up",
-                                        children: "Hello World"
+                                        children: "Hello World!"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         class: "mil-up",
-                                        children: "Hello World"
+                                        children: "Hello World!"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                                         class: "mil-up",
-                                        children: "Hello World"
+                                        children: "Hello World!"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h5", {
                                         class: "mil-up",
-                                        children: "Hello World"
+                                        children: "Hello World!"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                         class: "mil-up",
-                                        children: "Hello World"
+                                        children: "Hello World!"
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             class: "mil marker",
                                             children: "Sub Headings"
                                         })
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         class: "subtitle_large mil-up",
                                         children: "Subtitle Large"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         class: "subtitle_medium mil-up",
                                         children: "Subtitle Medium"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         class: "subtitle_small mil-up",
                                         children: "Subtitle Small"
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             class: "mil marker",
                                             children: "Body Copy"
                                         })
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "body_copy_xs mil-up",
                                         children: "Hello World"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "body_copy_medium mil-up",
                                         children: "Hello World"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "body_copy_large mil-up",
                                         children: "Hello World"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: "body_copy_xl mil-up",
                                         children: "Hello World"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                         href: "#",
                                         children: "Text Link"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            class: "mil marker",
+                                            children: "Lists"
+                                        })
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: "List item 1"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: "List item 2"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: "List item 3"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ol", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: "List item 1"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: "List item 2"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                children: "List item 3"
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("blockquote", {
+                                    children: "Tetsing blockquote"
+                                })
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "content_wrapper large",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    class: "mil marker",
+                                    children: "Spacing"
+                                })
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "XXS"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer xxs_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "XS"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer xs_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "Small"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer small_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "Medium"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer medium_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "Large"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer large_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "XL"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer xl_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "XXL"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer xxl_height"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "Jumbo"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        class: "spacer jumbo_height"
                                     })
                                 ]
                             })
                         ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "content_wrapper large",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                class: "mil marker",
-                                children: "Spacing"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "content_wrapper large",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                     class: "mil marker",
                                     children: "Buttons"
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    className: "button",
-                                    children: "Primary Button"
-                                })
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "button_wrapper",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "large_button",
+                                        children: "Primary Button"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        children: "Primary Button"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "small_button",
+                                        children: "Primary Button"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "button_wrapper",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "secondary_button large_button",
+                                        children: "Secondary Button"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "secondary_button",
+                                        children: "Seconday Button"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "secondary_button small_button",
+                                        children: "Secondary Button"
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "content_wrapper large",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                children: "Primary CTA Button"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx(elements_PrimaryButton, {})
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "content_wrapper large",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "three_col_grid",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                        src: "/img/photo/4.jpg",
+                                        alt: "image"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                className: "subtitle_small",
+                                                children: "Default Image"
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                children: [
+                                                    "width: 100%;",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                                    "Height: auto;"
+                                                ]
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "three_col_grid",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                        src: "/img/photo/4.jpg",
+                                        className: "image_full",
+                                        alt: "image"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                className: "subtitle_small",
+                                                children: "Image Full"
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                children: [
+                                                    "width: 100%;",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                                    "Height: 100%;"
+                                                ]
+                                            })
+                                        ]
+                                    })
+                                ]
                             })
                         ]
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_sections_CallToAction__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(CallToAction/* default */.Z, {})
         ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Styleguide);
+/* harmony default export */ const page = (Styleguide);
 
 
 /***/ })
